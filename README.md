@@ -1,7 +1,6 @@
-HW1 | Cloud Computing 
-Nagendra Gautham Gondi
+**Python Flask Application with Apache and WSGI Setup**  
 
-Application:
+**Application**  
 
 The application deployed takes the user input and tells us if it is a Pangram or not a pangram.
 
@@ -18,9 +17,6 @@ Output: Oops!!! The entered sentence is not a pangram.
 Used Technologies: HTML, CSS for Styling, Python 2.7, Flask
 
 Used GET and POST method for the form to get user input and post the result.
-
-The application has been hosted on:
-URL: https://18.218.101.4/
 
 Python has been setup with wsgi server with host being apache2 server. Please find the steps to deploy Flask Application under Apache WSGI in Amazon Linux AMI. Please add 'sudo' command if in case you get any permission errors.
 
@@ -104,12 +100,3 @@ Configuring Self Signed SSL Certificate to bring HTTPS:
 References: 
 https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-apache-for-centos-7
 https://www.digicert.com/csr-ssl-installation/apache-openssl.htm
-
-The certificate has been activated on https URL.
-Link : https://18.218.101.4/
-
-------------------------------------------------------------------------------------------
-Application : https://18.218.101.4/
-Github      : https://github.uc.edu/gondinm/Cloud_Computing
-ReadMe      : https://github.uc.edu/gondinm/Cloud_Computing/blob/master/README.md
-------------------------------------------------------------------------------------------
