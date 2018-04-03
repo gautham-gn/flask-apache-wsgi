@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Check Pangram</title>
+        <style type="text/css">
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    }
+input[type=submit]{   
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+    color: #3D9970;
+    background-color: #001f3f;
+    font-family: Courier;
+}
+    </style>
+    </head>
+ <body>
+
+<form action="submit" method="post">
+	<center> 
+    <h2>Enter a word or a sentence to check if it is a pangram:</h2> 
+    <input type=text id="sen" name="sentence" required="required" maxlength="75" />
+    <h3>A pangram is a sentence or any word having all the alphabets (A-Z).</h3>
+    <p>Example: 'The quick brown fox jumps over the lazy dog'</p>  
+    <h1><input type=submit value="Submit"></h1>
+    </center>
+</form>
+
+</body>

@@ -1,0 +1,25 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    }
+input[type=submit]{   
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+    color: #3D9970;
+    background-color: #001f3f;
+    font-family: Courier;
+}
