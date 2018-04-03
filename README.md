@@ -23,7 +23,7 @@ Python has been setup with wsgi server with host being apache2 server. Please fi
 Install apache by using below reference:
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
 
-Installation/Using WSGI:
+**Installation/Using WSGI:**  
 
 1. Install flask
 pip install flask
@@ -69,7 +69,7 @@ application.secret_key = 'your secret key'
 8. Configure you application configuration file by using VI editor by below command and paste the necessary content shown.
 vi /etc/httpd/conf.d/Pangram.conf
 
-Content:
+**Content:** 
 <VirtualHost *:80>
     WSGIScriptAlias / /var/www/Pangram/pangram.wsgi
     <Directory /var/www/Pangram/Pangram/>
@@ -86,17 +86,17 @@ Content:
 9. Now restart apache
 sudo service httpd restart
 
-References: 
+**References:**  
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 https://www.jakowicz.com/flask-apache-wsgi/
 http://peatiscoding.me/geek-stuff/mod_wsgi-apache-virtualenv/
 
 
-Configuring Self Signed SSL Certificate to bring HTTPS: 
+**Configuring Self Signed SSL Certificate to bring HTTPS: **  
 1. Installation of required modules like mod_ssl
 2. Generation of a key and certificate.
 3. Modifying configuration files such as Pangram.conf, httpd.conf, ssl.conf
 
-References: 
+**References:** 
 https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-apache-for-centos-7
 https://www.digicert.com/csr-ssl-installation/apache-openssl.htm
