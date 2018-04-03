@@ -39,18 +39,18 @@ virtualenv venv
 source venv/bin/activate 
 
 5. Please follow the mentioned folder structure: In my case it is as below:
-------/var/www
---------------/Pangram
------------------------/pangram.wsgi
------------------------/Pangram
--------------------------------/__init__.py
--------------------------------/static
------------------------------------------/styles.css
--------------------------------/templates
------------------------------------------/ispangram.html
------------------------------------------/pangram.html
------------------------------------------/notpangram.html
--------------------------------/venv
+------/var/www  
+--------------/Pangram  
+-----------------------/pangram.wsgi  
+-----------------------/Pangram  
+-------------------------------/__init__.py  
+-------------------------------/static  
+-----------------------------------------/styles.css  
+-------------------------------/templates  
+-----------------------------------------/ispangram.html  
+-----------------------------------------/pangram.html  
+-----------------------------------------/notpangram.html  
+-------------------------------/venv  
 
 6. To check if the app is working, run below command and check if you get "Running on http://localhost:5000/"
 python __init__.py 
